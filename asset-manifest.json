@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.480d2ec6.css",
+    "main.js": "/portfolio/static/js/main.b665d2a9.js",
+    "static/media/landing.png": "/portfolio/static/media/landing.74edec7fe59d30b1cabd.png",
+    "static/media/faq.png": "/portfolio/static/media/faq.efedcc6af591668fb4f4.png",
+    "static/media/lineup.png": "/portfolio/static/media/lineup.56bd7bb1359363ae120b.png",
+    "static/media/ticket.png": "/portfolio/static/media/ticket.9f5a49665ef0c9d16291.png",
+    "static/media/design4.png": "/portfolio/static/media/design4.9ab09cd9fb2bb950dabb.png",
+    "static/media/bg1.png": "/portfolio/static/media/bg1.6c18b0e5f38138af49cf.png",
+    "static/media/design7.png": "/portfolio/static/media/design7.90e5d7c7d8376f45b732.png",
+    "static/media/design5.png": "/portfolio/static/media/design5.afc25e471bacdc229f48.png",
+    "static/media/design3.png": "/portfolio/static/media/design3.3b0a833b3f08050d3814.png",
+    "static/media/design6.png": "/portfolio/static/media/design6.c929236e533490d5ea1c.png",
+    "static/media/krenopage.png": "/portfolio/static/media/krenopage.6a21bef77e9161c6dfca.png",
+    "static/media/design2.png": "/portfolio/static/media/design2.d5cd601e8140422aafd7.png",
+    "static/media/krenomobile.png": "/portfolio/static/media/krenomobile.cff96a6f14b50db6415d.png",
+    "static/media/design10.png": "/portfolio/static/media/design10.219d387540f3bab8d26b.png",
+    "static/media/design1.png": "/portfolio/static/media/design1.33179252fed1d2890968.png",
+    "static/media/login.png": "/portfolio/static/media/login.a3556659f4c2f8dcc0f1.png",
+    "static/media/fla.png": "/portfolio/static/media/fla.76895898abee0b596dfd.png",
+    "static/media/design11.png": "/portfolio/static/media/design11.45099082f99ba302bb39.png",
+    "static/media/design8.png": "/portfolio/static/media/design8.d2aef6763683791996d3.png",
+    "static/media/design9.png": "/portfolio/static/media/design9.5d8b456df7c896f7cef7.png",
+    "static/media/sonikl.png": "/portfolio/static/media/sonikl.2b059bb34bee3ebab52f.png",
+    "static/media/Aramco.png": "/portfolio/static/media/Aramco.c5999b7633ba4b30a421.png",
+    "static/media/Flaworks.png": "/portfolio/static/media/Flaworks.0cbae835b63c6a347dd8.png",
+    "static/media/Frame.png": "/portfolio/static/media/Frame.719667e91d93c8030067.png",
+    "static/media/solvnex.jpg": "/portfolio/static/media/solvnex.2377c9c9e4f31225a65e.jpg",
+    "static/media/Vector1.png": "/portfolio/static/media/Vector1.29337c09c22d88546828.png",
+    "index.html": "/portfolio/index.html",
+    "main.480d2ec6.css.map": "/portfolio/static/css/main.480d2ec6.css.map",
+    "main.b665d2a9.js.map": "/portfolio/static/js/main.b665d2a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.480d2ec6.css",
+    "static/js/main.b665d2a9.js"
+  ]
+}
