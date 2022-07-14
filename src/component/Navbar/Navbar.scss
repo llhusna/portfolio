@@ -1,0 +1,10 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5%;
+    font-size: 0.9em;
+    padding: 0.5% 0 0.5% 2%;
+    border-bottom: 1px solid white;
+    background-color: grey;
+  }

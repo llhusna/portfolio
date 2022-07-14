@@ -1,0 +1,40 @@
+.box {
+    padding: 8% 8% 10% 10%;
+}
+
+.box-inside {
+    padding: 5% 0 5% 8%;
+}
+
+.text-about {
+    color: white;
+    font-size: clamp(0.7rem, 1vw, 2rem); 
+}
+
+.text-main {
+    color: white;
+    font-size: clamp(0.7rem, 2vw, 2rem); 
+}
+
+.text-timeline {
+    text-align: center;
+/*     grid-template-columns: repeat(3, 1.2fr);
+    grid-auto-rows: 45%;
+    column-gap: 20px;
+    row-gap: 20px; */
+}
+
+div ol {
+    font-size: clamp(1.2rem, 1.5vw, 2rem);
+    font-weight: 500;
+}
+
+ol li {
+    font-size: clamp(1rem, 1vw, 2rem);
+    font-weight: 300;
+}
+
+.image-about {
+    width: 80%;
+    height: 80%;
+}

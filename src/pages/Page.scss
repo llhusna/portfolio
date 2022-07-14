@@ -1,0 +1,147 @@
+.text-file {
+    color: white;
+    margin: 50px 0 0 50px;
+}
+
+.logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text-company {
+    font-size: clamp(1rem, 1.5vw, 2rem); 
+    font-weight: 700;
+}
+
+.skills {
+    border: 1px solid black;
+    padding: 2px 20px 2px 20px;
+    border-radius: 6px;
+}
+
+.skills-vue {
+    border: 3px solid whitesmoke;
+    background-color: #3eb27f;
+    padding: 2px 20px 2px 20px;
+    border-radius: 6px;
+}
+
+.skills-quasar {
+    border: 3px solid whitesmoke;
+    background-color: 
+    #00b4ff;
+    padding: 2px 20px 2px 20px;
+    border-radius: 6px;
+}
+
+.skills-php {
+    border: 3px solid whitesmoke;
+    background-color: #4b588e;
+    padding: 2px 20px 2px 20px;
+    border-radius: 6px;
+}
+
+.skills-bootstrap {
+    border: 3px solid whitesmoke;
+    background-color: #8411f5;
+    padding: 2px 20px 2px 20px;
+    border-radius: 6px;
+}
+
+.bg-kreno {
+    background-color: black;
+    border-radius: 6px;
+}
+
+.design1 {
+    width: 20%;
+    height: 97%;
+}
+
+.design2 {
+    width: 20%;
+    height: 92%;
+}
+
+.design3 {
+    width: 20%;
+    height: 85%;
+}
+
+.design4 {
+    width: 20%;
+    height: 100%;
+}
+
+.design5 {
+    width: 20%;
+    height: 88%;
+    transform: translateY(-3%);
+}
+
+.design6 {
+    width: 20%;
+    height: 85%;
+    transform: translateY(-8%);
+}
+
+.design7 {
+    width: 20%;
+    height: 83%;
+    transform: translateY(-15%);
+}
+
+.design8 {
+    width: 40%;
+    height: 90%;
+}
+
+.design9 {
+    width: 38%;
+    height: 92%;
+    transform: translateY(-25%);
+}
+
+.design10 {
+    width: 40%;
+    height: 90%;
+}
+
+.design11 {
+    width: 38%;
+    height: 92%;
+    transform: translateY(-25%);
+}
+
+.bg-image {
+    background: url(../assets/bg1.png) no-repeat grey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: luminosity; 
+  }
+
+.box-1 {
+   margin-top: 34%;
+}
+
+.border-confirm {
+    width: 60%;
+}
+
+.text-confirm {
+    font-size: clamp(1rem, 1.5vw, 2rem); 
+    font-weight: 700;
+    
+}
+
+.loader {
+    position: absolute center;
+    margin: 0 auto;
+    padding: 0;
+}
