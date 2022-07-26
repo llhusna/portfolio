@@ -1,4 +1,5 @@
 {
+  "homepage": "https://llhusna.github.io/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -17,13 +18,15 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "5.0.0",
     "svg-url-loader": "^7.1.1",
     "tailwindcss": "^3.0.24",
     "three": "^0.142.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
