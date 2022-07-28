@@ -25,6 +25,7 @@ import design9 from '../assets/design9.png';
 import design10 from '../assets/design10.png';
 import design11 from '../assets/design11.png';
 import design from '../assets/Vector1.png';
+import arrow from '../assets/arrow.png';
 
 import bg from '../assets/bg1.png';
 
@@ -63,5 +64,6 @@ export default {
     design11,
 
     design,
-    bg
+    bg,
+    arrow
 }

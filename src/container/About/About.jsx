@@ -38,9 +38,6 @@ function About() {
   <li>{degree}</li>);
 
 
-
-
-
   return (
   <div>
     <div class="container flex justify-center">
@@ -58,7 +55,7 @@ function About() {
             In 2022, I started to explore web designs and playing around with figma, aseprite and blender as tools of creating design. 
              I have created around 6 static web designs and wish to produce more design with animations and 3d assets in future. 
             <br/><br/>
-            My goal is to master both frontend and design to produce a more interative website using three.js. 
+            My goal is to master both frontend and design to produce more interactive website using three.js. 
             I developed this portfolio to showcase my current development.
             </p>
         </div>     
@@ -71,32 +68,48 @@ function About() {
         <div>
           <h4 class="text-main">My Personal Timeline</h4>
         </div>
-
+        
         <div class="pt-10">
           <ol>Digital Cultivation
-            <ul>{listDC}</ul>
+            <ul class="pt-4">{listDC}</ul>
           </ol>
         </div>
 
-        <div class="pt-10">
+        <div class="flex justify-center pt-4">
+          <img src={images.arrow} alt="frame" class=""/>
+          </div>
+
+        <div class="pt-4">
           <ol>Tech Skill Accelerator, Krenovator
-            <ul>{listTSA}</ul>
+            <ul class="pt-4">{listTSA}</ul>
           </ol>
         </div>
 
-        <div class="pt-10">
+        <div class="flex justify-center pt-4">
+          <img src={images.arrow} alt="frame" class=""/>
+          </div>
+
+        <div class="pt-4">
           <ol>Doing small business
-          <ul>{listSelfEmployed}</ul>
+          <ul class="pt-4">{listSelfEmployed}</ul>
           </ol>
         </div>
 
-        <div class="pt-10">
+        <div class="flex justify-center pt-4">
+          <img src={images.arrow} alt="frame" class=""/>
+          </div>
+
+        <div class="pt-4">
           <ol>Bachelor’s Degree in Biology
-            <ul>{listDegree}</ul>
+            <ul class="pt-4">{listDegree}</ul>
           </ol>
         </div>
 
-        <div class="pt-10">
+        <div class="flex justify-center pt-4">
+          <img src={images.arrow} alt="frame" class=""/>
+          </div>
+
+        <div class="pt-4">
           Foundation of Science, UiTM
         </div>
       </div>

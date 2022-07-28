@@ -1,3 +1,4 @@
+
 .box {
     padding: 8% 8% 10% 10%;
 }
@@ -7,11 +8,14 @@
 }
 
 .text-about {
+    font-family: "Poppins Medium";
     color: white;
-    font-size: clamp(0.7rem, 1vw, 2rem); 
+    font-size: clamp(0.9rem, 0.9vw, 2rem); 
+    margin-top: 3%;
 }
 
 .text-main {
+    font-family: "Atari Classic Regular";
     color: white;
     font-size: clamp(0.7rem, 2vw, 2rem); 
 }
@@ -25,13 +29,15 @@
 }
 
 div ol {
+    font-family: "Pixel Coleco Regular";
     font-size: clamp(1.2rem, 1.5vw, 2rem);
     font-weight: 500;
 }
 
 ol li {
-    font-size: clamp(1rem, 1vw, 2rem);
-    font-weight: 300;
+    font-family: "Poppins Medium";
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    line-height: 1.8em;
 }
 
 .image-about {

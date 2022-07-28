@@ -1,22 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
-import { Canvas, useFrame, useThree } from '@react-three/fiber'
-import * as THREE from 'three'
+import { Canvas, useFrame } from '@react-three/fiber'
 
 import { images } from './../constants'
 import { Loader } from '../component'
-import { Overlay } from '../component'
 import { Ground } from '../component';
 
 import {
-    CubeCamera,
-    Environment,
-    OrbitControls,
     PerspectiveCamera, ScrollControls, Scroll
   } from "@react-three/drei";
 
 import './Page.scss'
-import { BoxGeometry } from 'three';
 
 function Box() {
     const mesh = useRef()
@@ -69,7 +63,7 @@ function TryPortfolio() {
 function Folder() {
  const navigate = useNavigate();
 
-    const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 2000)
@@ -78,7 +72,7 @@ function Folder() {
     return (
         <div style={{ width: "100vw", height: "100vh" }}>
         <Canvas height="100" width="100">
-        <ScrollControls damping={6} pages={5}>
+        <ScrollControls damping={1} pages={1}>
         <Scroll html style={{ width: '100%', color:'white' }}>
         <div>
         {loading === false ? (

@@ -11,7 +11,6 @@ function AboutMe() {
     <div class="text-white">
         <Navbar />
         <About />
-        <Skills />
     </div>
   )
 }
