@@ -48,11 +48,11 @@ function Confirm() {
   const navigate = useNavigate();
 
   function changeWhite(e) {
-    e.target.style.background = '';
+    e.target.style.opacity = '0.1';
   }
   
   function changeBlack(e) {
-    e.target.style.background = '';
+    e.target.style.opacity = '1';
   }
 
   

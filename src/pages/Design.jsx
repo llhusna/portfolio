@@ -24,7 +24,7 @@ function Design() {
           <img src={images.design7} alt="frame" class="design7 p-1 bg-white"></img>
         
       </div>
-      <div class="grid justify-center gap-10 pt-20">
+      <div class="grid justify-center gap-10 py-20 px-20">
           <div class="flex justify-between text-center">
               <img src={images.design8} alt="frame" class="design8 p-1 bg-white"></img>
               <img src={images.design9} alt="frame" class="design9 p-1 bg-white"></img>

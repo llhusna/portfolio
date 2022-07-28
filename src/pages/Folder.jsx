@@ -71,11 +71,11 @@ function Folder() {
   
     return (
         <div style={{ width: "100vw", height: "100vh" }}>
+        {loading === false ? (
         <Canvas height="100" width="100">
         <ScrollControls damping={1} pages={1}>
         <Scroll html style={{ width: '100%', color:'white' }}>
         <div>
-        {loading === false ? (
         <div class="flex min-h-screen">
             <div class="container relative text-file">
                 <div class="flex gap-14">
@@ -101,17 +101,17 @@ function Folder() {
             </div>
         
         </div>
-        ) : (
-            <Loader />
-          )}
           </div>
             
             
       </Scroll>
-      
       </ScrollControls>
+
         <TryPortfolio />
         </Canvas>
+        ) : (
+            <Loader />
+          )}
         </div>
     )
 }

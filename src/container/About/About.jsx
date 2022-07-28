@@ -5,33 +5,32 @@ import { images } from '../../constants'
 
 function About() {
   const digitalCultivation = [
-    'Self-training on web designs & UI/UX design',
-    'Created UI design for the company and talent’s websites',
-    'Produced approximately 6 designs using Figma'
+    '- Self-training on web designs & UI/UX design',
+    '- Created UI design for the company and talent’s websites',
+    '- Produced approximately 6 designs using Figma'
   ];
 
   const listDC = digitalCultivation.map((digitalCultivation) => 
   <li>{digitalCultivation}</li>);
 
   const TSA = [
-    'Got into the third cohort after submitted the mini project',
-    'Involved in approximately 5 real-industry projects involving the frontend part'
+    '- Got into the third cohort after submitted a mini project',
+    '- Involved in approximately 5 real-industry projects involving the frontend part'
   ];
 
   const listTSA = TSA.map((TSA) => 
   <li>{TSA}</li>);
 
   const selfEmployed = [
-    'Got into the third cohort after submitted the mini project',
-    'Involved in approximately 5 real-industry projects involving the frontend part'
+    '- Learn frontend path through free resources',
+    'online (Freecodecamp, Javascript MDN, Scrimba)'
   ]
 
   const listSelfEmployed = selfEmployed.map((selfEmployed) => 
   <li>{selfEmployed}</li>);
 
   const degree = [
-    'Got into the third cohort after submitted the mini project',
-    'Involved in approximately 5 real-industry projects involving the frontend part'
+    '- Learn C++ as part of minor subject'
   ]
 
   const listDegree = degree.map((degree) => 
@@ -64,24 +63,14 @@ function About() {
 
     {/* Timeline */}
 
-      <div class="container text-timeline">
+      <div class="container text-timeline" style={{ padding: '0 0 20%'}}>
         <div>
           <h4 class="text-main">My Personal Timeline</h4>
         </div>
         
         <div class="pt-10">
-          <ol>Digital Cultivation
-            <ul class="pt-4">{listDC}</ul>
-          </ol>
-        </div>
-
-        <div class="flex justify-center pt-4">
-          <img src={images.arrow} alt="frame" class=""/>
-          </div>
-
-        <div class="pt-4">
-          <ol>Tech Skill Accelerator, Krenovator
-            <ul class="pt-4">{listTSA}</ul>
+          <ol>Bachelor’s Degree in Biology
+            <ul class="pt-4">{listDegree}</ul>
           </ol>
         </div>
 
@@ -97,21 +86,24 @@ function About() {
 
         <div class="flex justify-center pt-4">
           <img src={images.arrow} alt="frame" class=""/>
-          </div>
+        </div>
 
         <div class="pt-4">
-          <ol>Bachelor’s Degree in Biology
-            <ul class="pt-4">{listDegree}</ul>
+          <ol>Tech Skill Accelerator, Krenovator
+            <ul class="pt-4">{listTSA}</ul>
           </ol>
         </div>
 
         <div class="flex justify-center pt-4">
           <img src={images.arrow} alt="frame" class=""/>
-          </div>
-
-        <div class="pt-4">
-          Foundation of Science, UiTM
         </div>
+
+        <div class="pt-10">
+          <ol>Digital Cultivation
+            <ul class="pt-4">{listDC}</ul>
+          </ol>
+        </div>
+
       </div>
 
   </div>
