@@ -21,9 +21,9 @@ function Design() {
           <img src={images.design2} alt="frame" class="design4 p-1 bg-white"></img>
           <img src={images.design4} alt="frame" class="design5 p-1 bg-white"></img>
           <img src={images.design6} alt="frame" class="design6 p-1 bg-white"></img>
-          <img src={images.design7} alt="frame" class="design7 p-1 bg-white"></img>
-        
+          <img src={images.design7} alt="frame" class="design7 p-1 bg-white"></img>       
       </div>
+
       <div class="grid justify-center gap-10 py-20 px-20">
           <div class="flex justify-between text-center">
               <img src={images.design8} alt="frame" class="design8 p-1 bg-white"></img>
@@ -34,6 +34,14 @@ function Design() {
               <img src={images.design11} alt="frame" class="design11 p-1 bg-white"></img>
         </div>
     </div>
+
+    <div class="grid justify-center py-20 px-20">
+          <div class="flex justify-center gap-x-8 text-center">
+              <img src={images.plane1} alt="frame" class="designP py-2 bg-white"></img>
+              <img src={images.plane2} alt="frame" class="designP p-2 bg-white"></img>
+        </div>
+    </div>
+
     </div>
   )
 }

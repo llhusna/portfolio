@@ -48,7 +48,7 @@ function Confirm() {
   const navigate = useNavigate();
 
   function changeWhite(e) {
-    e.target.style.opacity = '0.1';
+    e.target.style.opacity = '0.3';
   }
   
   function changeBlack(e) {
@@ -66,15 +66,14 @@ function Confirm() {
         <Scroll html style={{ width: '100%', color:'white' }}>
         <ambientLight intensity={2} />
           <pointLight position={[40, 40, 40]} />
-          <div class="flex relative">
+          <div class="confirm border-dashed border-8 border-grey-800 py-10 px-16" >
 {/* 
           <div class="text-black absolute left-0 top-0 h-16 w-16">RH</div>
           <div class="text-black absolute top-0 right-0 h-16 w-16">HI</div> */}
 
-          <div class="container relative my-auto border-confirm border-4 border-grey p-2">
-                <div class="border-4 border-grey static " style={{ padding:"50px"}}>
                     <div class="text-confirm text-center">
                         Hello I'm Husna. <br /> A frontend developer. <br/>
+                        <br />
                         Interested to get to know more ?
                     </div>
                     <div>
@@ -83,12 +82,11 @@ function Confirm() {
                           onMouseLeave={changeBlack}
                           onClick={() => navigate('/Folder')}
                           type="button" 
-                          class="text-confirm1 border-4 border-grey static my-auto text-center">
+                          class="text-confirm1 border-4 border-grey static my-auto text-center pt-6">
                           Explore
                         </button>
                     </div>
-                </div>
-            </div>
+ 
 
             {/*     
             <div class="text-black absolute bottom-0 left-0 h-16 w-16">HI</div>

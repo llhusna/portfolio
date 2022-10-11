@@ -116,6 +116,12 @@
     transform: translateY(-25%);
 }
 
+.designP {
+    width: 40%;
+    height: 90%;
+    border-radius: 2%;
+}
+
 .bg-image {
     background: url(../assets/bg1.png) no-repeat grey;
     background-position: center;
@@ -127,13 +133,20 @@
   }
 
 .box-1 {
-   margin-top: 34%;
+   margin-top: 35%;
 }
 
 .border-confirm {
     width: 60%;
     margin-top: 12%;
     margin-bottom: 15%;
+}
+
+.confirm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .text-confirm {
